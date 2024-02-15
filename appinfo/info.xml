@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <!--
+    SPDX-FileCopyrightText: Andrii Rublov <a@rublov.me>
+    SPDX-License-Identifier: CC0-1.0
+    -->
+    <id>finances</id>
+    <name>Finances</name>
+    <summary>Finances app - combine all your finances in one system.</summary>
+    <description><![CDATA[Combine all your finances in one system. Keep a general record of your money. Plan your expenses and income. Make forecasts and monitor your budget.]]></description>
+    <version>0.0.1</version>
+    <licence>agpl</licence>
+    <author mail="a@rublov.me" homepage="https://a.rublov.me/">Andrii Rublov</author>
+    <namespace>Finances</namespace>
+    <category>integration</category>
+    <category>organization</category>
+    <category>tools</category>
+    <bugs>https://github.com/arublov/nc-app-finances/issues</bugs>
+    <dependencies>
+        <nextcloud min-version="29" max-version="29"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>Finances</name>
+            <route>finances.page.index</route>
+        </navigation>
+    </navigations>
+</info>
