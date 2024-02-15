@@ -18,7 +18,7 @@
     <category>tools</category>
     <bugs>https://github.com/arublov/nc-app-finances/issues</bugs>
     <dependencies>
-        <nextcloud min-version="29" max-version="29"/>
+        <nextcloud min-version="28" max-version="28"/>
     </dependencies>
     <navigations>
         <navigation>
